@@ -35,6 +35,7 @@ function require(moduleName) {
     // 모듈 로드
     // 모듈 소스코드는 해당 파일에서 읽어오며, 코드는 앞에서 살펴본 방식으로 평가합니다. 방금 생성한 module 객체와 require() 함수의 참조를 모듈에 전달합니다. 모듈은 module.exports 객체를 조작하거나 대체하여 public API를 내보냅니다.
     loadModule(id, module, require)
+    
     // 익스포트되는 변수 반환
     // 마지막으로, 모듈의 public API를 나타내는 module.exports의 내용이 호출자에게 반환됩니다.
     return module.exports
