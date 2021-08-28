@@ -2,3 +2,4 @@
 data = socket.read()
 // data 사용 가능
 print(data)
+
