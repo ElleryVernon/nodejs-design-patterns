@@ -28,3 +28,4 @@ let checkPositon = () => {
 let infiniteScroll = throttle(checkPositon, 300)
 window.addEventListener('scroll', infiniteScroll)
 
+
